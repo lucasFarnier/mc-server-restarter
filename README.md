@@ -7,7 +7,7 @@ A lightweight, robust Bash daemon suite designed to automate the lifecycle, sche
 ## Key Features
 
 * **Automated Screen Management:** Automatically detects or creates the detached GNU `screen` session (`bedrock`) so you do not need to manually orchestrate background sessions.
-* **Automatic Startup Integration:** Launching the daemon automatically spins up the Minecraft Bedrock server if it is offline.
+* **Automatic Startup Integration:** Launching the script automatically spins up the Minecraft Bedrock server if it is offline.
 * **Scheduled Midnight Restarts:** Performs daily automated restarts (default target: Midnight GMT/UK time) complete with formatted, color-coded in-game player warnings.
 * **Crash Recovery & Guardian:** Continuously monitors the process state and automatically restarts the server within 5 seconds if an unexpected crash occurs.
 * **Graceful Ctrl+C Handling:** Intercepts `Ctrl+C` in the launcher screen to issue a 10-second in-game warning, execute a safe `stop` command, verify world file save completion, and exit cleanly.
