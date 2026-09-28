@@ -97,3 +97,5 @@ If the server process terminates unexpectedly (outside of a scheduled restart or
 Within the `runner.sh` file change the FEX-Emu flags and launcher to whatever emultor and or launcher wanted
 ### 2. change restart time
 At the start of the `RestartLauncher.sh` there is a variable called `TargetTime` changing this to a different time HH:MM will change what time the restart happens at (on unix the time must be an hour behind current time so 2am is 1am to UNIX so must but put as is)
+### 3. change server terminal screen name
+At the start of the `RestartLauncher.sh` there is a variable called `ScreenName` changing this to a different name will change the main MC server terminal screen name you can access
