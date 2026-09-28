@@ -77,7 +77,7 @@ echo -e "\n[INFO] [$(date +'%Y-%m-%d %H:%M:%S')] =====PROGRAM STARTED====="
 if ! screen -ls | grep -q "\.${ScreenName}\b"; then
 	screen -dmS "$ScreenName"
 	echo "[INFO] [$(date +'%Y-%m-%d %H:%M:%S')] screen not found - creating screen session for server"
-	screen -S "$ScreenName" -X stuff "cd '/home/ubuntu/server/bedrock-server-1.26.12.2 - 15.4.26 copy'"$'\r'
+	screen -S "$ScreenName" -X stuff "cd '<your file directory here for the runner.sh file location>'"$'\r'
 	sleep 1
 fi
 
