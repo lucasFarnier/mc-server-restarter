@@ -41,7 +41,7 @@ Prior to first execution, update the file path variables to match your server in
 Open `Runner.sh` and update lines **3** and **7** with your absolute server path & FexEmu rootFS path
 
 ### 2. Configure RestartLauncher.sh
-Open `RestartLauncher.sh` and update line **80**  with your server directory
+Open `RestartLauncher.sh` and update line **80**  with your server directory where `Runner.sh` is stored
 
 ### 3. Grant Execution Permissions
 Make both scripts executable:
