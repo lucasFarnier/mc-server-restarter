@@ -1,10 +1,10 @@
 #!/bin/bash
 
-SERVER_DIR="/home/ubuntu/server/bedrock-server-1.26.12.2 - 15.4.26 copy"
+SERVER_DIR="<bedrock_server.sh launcher location here>"
 cd "$SERVER_DIR" || exit 1
 
 # ===== FEX-Emu RootFS Location =====
-export FEX_ROOTFS="/home/ubuntu/.local/share/fex-emu/RootFS/Ubuntu_24_04"
+export FEX_ROOTFS="<fexemu rootFS location here>"
 
 # ===== FEX-Emu Performance Tuning (OCI Ampere A1) =====
 export FEX_DYNAREC=1
