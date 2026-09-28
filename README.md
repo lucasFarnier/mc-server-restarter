@@ -38,7 +38,7 @@ Before running the scripts, ensure your ARM64 environment has the following inst
 Prior to first execution, update the file path variables to match your server installation directory.
 
 ### 1. Configure Runner.sh
-Open `Runner.sh` and update lines **3** and **7** with your absolute server path:
+Open `Runner.sh` and update lines **3** and **7** with your absolute server path & FexEmu rootFS path:
 ```bash
 # Line 3 & Line 7: Set your Minecraft Bedrock launcher path & FexEmu rootFS path
 ```
